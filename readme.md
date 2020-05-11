@@ -25,12 +25,12 @@ Einen Schnelleinstieg ins korpusbasierte Arbeiten am Beispiel von DWDS bietet <a
 <details>
 <summary>Einführung in die Historische Korpuslinguistik</summary>
 
-#### Einführungsvideo
+<h3>Einführungsvideo</h3>
 
 <p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZzDt_cMhNS8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 
-#### Grundbegriffe der Korpuslinguistik
+<h3>Grundbegriffe der Korpuslinguistik</h3>
 
 <p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7DQiJ3IZMTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </details>
