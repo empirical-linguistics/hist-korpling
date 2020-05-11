@@ -1,0 +1,147 @@
+Bitte erst selbst probieren, dann scrollen!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+== Leere Zeilen ersetzen ==
+
+Die leeren Zeilen lassen sich relativ einfach entfernen:
+
+
+Ersetze:
+^\n
+
+durch: nichts.
+
+Erklärung: \n steht für "neue Zeile", ^ für "steht am Anfang".
+^\n findet also Zeilen, bei denen der Zeilenumbruch am Anfang steht - sprich: leere Zeilen.
+
+
+
+
+== Zeilenumbruch nach Nummerierung ersetzen ==
+
+Anschließend ersetzen wir den Zeilenumbruch nach den Zeilen, in denen vor dem Zeilenumbruch
+zwei numerische Zeichen stehen, mit Hilfe einer lookbehind assertion durch einen Tabstopp:
+
+Ersetze:
+(?<=^[0-9][0-9])\n
+
+durch:
+\t
+
+In diesem Fall ist das recht einfach, weil wir genau wissen, dass die Zeilen mit der
+Nummerierung immer aus genau zwei numerischen Zeichen bestehen. Schwieriger wäre es,
+wenn die Zahlen erst zweistellig wären und irgendwann dreistellig würden... Mit Wild-
+cards zu arbeiten, wäre keine Option, weil die "lookbehind assertion" ja eine feste
+Länge haben muss. Aber wir könnten z.B. das ^ weglassen und hoffen, dass sich kein
+Beleg eingeschlichen hat, bei dem zufällig am Zeilenende zwei numerische Zeichen 
+aufeinander folgen. Oder wir ersetzen erst (?<=^[0-9][0-9][0-9])\n und dann erst 
+(?<=^[0-9][0-9])\n. 
+
+
+
+== <b> und </b> ersetzen ==
+
+Dieser Teil ist der mit Abstand einfachste:
+
+Ersetze:
+</?b>
+
+durch:
+\t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Der reguläre Ausdruck [a-z] findet Kleinbuchstaben, [A-Z] Großbuchstaben.
+WICHTIG: In vielen Editoren muss dafür die Option "case sensitive" aktiviert sein!
+
+
+
+
+

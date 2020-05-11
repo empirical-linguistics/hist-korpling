@@ -1,0 +1,11 @@
+01
+Das ist eine fiktive Konkordanz. Hier sind die <b>Keywords</b> durch "b" in spitzen Klammern abgetrennt.
+
+02
+Darüber hinaus gibt es eine Nummerierung, die jeweils eine eigene Zeile ohne <b>Keyword</b> oder sonstigen Text beansprucht.
+
+03
+Das wollen wir ändern: Jede Zeile soll aus vier Spalten bestehen, mit Nummer, linkem Kontext, <b>Keyword</b> und rechtem Kontext.
+
+04
+Dafür müssen wir zuerst die leeren Zeilen entfernen und dann einen Weg finden, die Zeilen mit und ohne <b>Keyword</b> zusammenzuführen.

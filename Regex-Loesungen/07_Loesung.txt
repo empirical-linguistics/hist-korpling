@@ -1,0 +1,143 @@
+Erst selbst probieren, dann spicken (= nach unten scrollen)!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+== Leerzeichen um Interpunktionszeichen herum setzen ==
+
+Ersetze:
+(?=(?=[^[:space:]])[[:punct:]])|(?<=[[:punct:]])(?=[^[:space:]])
+
+durch Leerzeichen:
+ 
+Erklärung:
+VOR dem Oder Zeichen:
+(?=(?=[^[:space:]])[[:punct:]])
+findet die Stelle VOR einem Interpunktionszeichen, dem wiederum ein Zeichen vorausgeht,
+das KEIN Leerzeichen ist. Beachten Sie, dass hier eine lookbehind assertion in eine
+andere lookbehind assertion eingebettet ist.
+
+NACH dem Oder-Zeichen:
+(?<=[[:punct:]])(?=[^[:space:]])
+findet die Stelle NACH einem Interpunktionszeichen, der ein Zeichen folgt, das KEIN
+Leerzeichen ist. Auch hier wird wieder mit zwei lookbehind assertions gearbeitet,
+um quasi den "Leerraum" zwischen den beiden Zeichen, die uns interessieren, 
+zu erwischen.
+
+
+
+== Zeilenumbruch nach <Keyword(s)> einfügen, wenn noch einmal "Keyword(s)" folgt ==
+
+Hier müssen wir mit LOOKAHEAD arbeiten, weil lookbehind nur mit regulären Ausdrücken
+mit fester Länger funktioniert. Wir können dort also nicht mit Wildcards wie .* arbeiten.
+Weil aber die Abstände zwischen den Vorkommnissen von "Keyword(s)" unterschiedlich
+groß sind, ist es einfacher, hier auf lookahead auszuweichen, das die Benutzung solcher
+Wildcards erlaubt.
+
+Ersetze:
+(?<=Keywords|Keyword)(?=[^[:alnum:]])(?=.*Keyword)
+
+durch:
+\n
+
+Erklärung: 
+(?<=Keywords|Keyword) sucht nach der Stelle unmittelbar nach der Zeichenfolge "Keywords"
+oder "Keyword". (Mit einer Wildcard wie z.B. "Keyword." können wir hier nicht arbeiten,
+weil die Lookbehind assertion dann nicht mehr "fixed length" ist und wir eine Fehler-
+meldung bekämen.)
+
+(?=[^[:alnum:]]) stellt sicher, dass unmittelbar nach der gesuchten Zeichenfolge ein
+nicht-alphanumerisches Zeichen folgt, also z.B. ein Leerzeichen oder ein Inter-
+punktionszeichen. Andernfalls würde nämlich die Form "Keywords" schon nach dem <d>
+aufgespalten, weil wir ja auch nach der Zeichenfolge "Keyword" suchen.
+
+(?=.*Keyword) schließlich schränkt die Suche mittels Lookahead assertion auf diejenigen
+Belege ein, bei denen auf ein Vorkommen des Wortes "Keyword" noch einmal irgendwo in
+der Zeile die Zeichenfolge <Keyword> folgt. Weil nicht spezifiziert ist, dass auf
+die Zeichenfolge <Keyword> nichts anderes mehr folgen darf, ist die Pluralform, also
+<Keywords>, dadurch mit erfasst.
+
+
+
+== Tabstopps vor und nach <Keyword(s)> einfügen ==
+
+Hier können wir genauso vorgehen wie eben, nur dass wir den letzten Teil unseres
+Suchausdrucks weglassen, weil wir die Tabstopps ja vor und nach *allen* Vorkomm-
+nissen von <Keyword(s)> einfügen wollen, nicht nur vor und nach denen, denen noch
+ein weiteres Vorkommnis folgt.
+
+Ersetze:
+(?<=Keywords|Keyword)(?=[^[:alnum:]])
+
+durch:
+\t
+
+
+Für den Tabstopp VOR Keyword können wir in diesem Fall ganz einfach wie folgt
+vorgehen:
+
+Ersetze:
+Keyword
+
+durch:
+\tKeyword
+
+
