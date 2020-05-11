@@ -19,7 +19,16 @@ Diese Tutorials stammen zum Teil aus dem Begleitmaterial zu meinem Buch "Deutsch
 
 Einen Schnelleinstieg ins korpusbasierte Arbeiten am Beispiel von DWDS bietet <a href="https://empirical-linguistics.github.io/korpus-schnelleinstieg/" target="_blank"> dieses Tutorial</a>.
 
+
+### Videos
+
+<details>
+<summary>Einführung in die Historische Korpuslinguistik</summary>
+<p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZzDt_cMhNS8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</details>
+
 ### Vom Korpus zur Konkordanz
+
 1.	<a href="https://hartmast.github.io/sprachgeschichte/begleitmaterial/01-Grundlegendes.pdf" target="_blank">Grundlegendes: Software, Datenstrukturen, Encoding und das geheime Leben meines Computers</a> (inklusive Überblick zu den wichtigsten regulären Ausdrücken)
 2.	<a href="https://hartmast.github.io/sprachgeschichte/begleitmaterial/02-Arbeitsschritte.pdf" target="_blank">Arbeitsschritte: Vom Korpus zur Konkordanz zur Analyse</a>
 3.	<a href="https://hartmast.github.io/sprachgeschichte/begleitmaterial/03-ANNIS.pdf">Tutorial: ANNIS (Referenzkorpora Altdeutsch, Mittelhochdeutsch, Bonner Frühneuhochdeutschkorpus, ...)</a>
