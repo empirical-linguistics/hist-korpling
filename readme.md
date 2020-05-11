@@ -26,10 +26,12 @@ Einen Schnelleinstieg ins korpusbasierte Arbeiten am Beispiel von DWDS bietet <a
 <summary>Einführung in die Historische Korpuslinguistik</summary>
 
 #### Einführungsvideo
+
 <p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZzDt_cMhNS8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 
 #### Grundbegriffe der Korpuslinguistik
+
 <p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7DQiJ3IZMTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </details>
 
@@ -38,9 +40,11 @@ Einen Schnelleinstieg ins korpusbasierte Arbeiten am Beispiel von DWDS bietet <a
 <summary>Vom Korpus zur Konkordanz</summary>
 
 #### Daten und Software
+
 <p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oYmV21E5MrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 #### Wie finde ich, was ich suche?
+
 <p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fInR16XuSJg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </details>
 <br />
@@ -49,6 +53,7 @@ Einen Schnelleinstieg ins korpusbasierte Arbeiten am Beispiel von DWDS bietet <a
 <summary>Von der Konkordanz zur Analyse</summary>
 
 #### Annotation
+
 <p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3iAps7t845s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 </details>
