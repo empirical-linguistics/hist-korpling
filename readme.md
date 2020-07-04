@@ -50,7 +50,7 @@ Einen Schnelleinstieg ins korpusbasierte Arbeiten am Beispiel von DWDS bietet <a
 <h3>Wie finde ich, was ich suche?</h3>
 
 <p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fInR16XuSJg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-</details>
+
 
 <h3>Reguläre Ausdrücke in Aktion</h3>
 
@@ -63,6 +63,7 @@ Einen Schnelleinstieg ins korpusbasierte Arbeiten am Beispiel von DWDS bietet <a
 <h3>Korpuslinguistik und Syntax: Baumbanken</h3>
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aVoTv-WZi4U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</details>
 
 <br />
 
