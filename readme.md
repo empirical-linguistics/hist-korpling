@@ -43,7 +43,7 @@ Einen Schnelleinstieg ins korpusbasierte Arbeiten am Beispiel von DWDS bietet <a
 
 <p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oYmV21E5MrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-<h3 style="margin-top:30px">Historische Korpora des Deutschen</h3>
+<h3>Historische Korpora des Deutschen</h3>
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IRZYe8c5gao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
