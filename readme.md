@@ -43,10 +43,27 @@ Einen Schnelleinstieg ins korpusbasierte Arbeiten am Beispiel von DWDS bietet <a
 
 <p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oYmV21E5MrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
+<h3 style="margin-top:30px">Historische Korpora des Deutschen</h3>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IRZYe8c5gao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <h3>Wie finde ich, was ich suche?</h3>
 
 <p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fInR16XuSJg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </details>
+
+<h3>Reguläre Ausdrücke in Aktion</h3>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IRV6AaXb53g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h3>Einfache Korpusrecherchen im DWDS</h3>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Dl0ZNiwbNTo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h3>Korpuslinguistik und Syntax: Baumbanken</h3>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aVoTv-WZi4U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <br />
 
 <details>
@@ -55,6 +72,10 @@ Einen Schnelleinstieg ins korpusbasierte Arbeiten am Beispiel von DWDS bietet <a
 <h3 style="margin-top:30px">Annotation</h3>
 
 <p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3iAps7t845s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+<h3 style="margin-top:30px">Tipps und Tricks für Microsoft Excel und LibreOffice Calc</h3>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jSY7GqcOCaA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </details>
 
@@ -65,7 +86,8 @@ Einen Schnelleinstieg ins korpusbasierte Arbeiten am Beispiel von DWDS bietet <a
 
 1.	<a href="https://hartmast.github.io/sprachgeschichte/begleitmaterial/01-Grundlegendes.pdf" target="_blank">Grundlegendes: Software, Datenstrukturen, Encoding und das geheime Leben meines Computers</a> (inklusive Überblick zu den wichtigsten regulären Ausdrücken)
 2.	<a href="https://hartmast.github.io/sprachgeschichte/begleitmaterial/02-Arbeitsschritte.pdf" target="_blank">Arbeitsschritte: Vom Korpus zur Konkordanz zur Analyse</a>
-3.	<a href="https://hartmast.github.io/sprachgeschichte/begleitmaterial/03-ANNIS.pdf">Tutorial: ANNIS (Referenzkorpora Altdeutsch, Mittelhochdeutsch, Bonner Frühneuhochdeutschkorpus, ...)</a>
+3.	<a href="https://hartmast.github.io/sprachgeschichte/begleitmaterial/03-ANNIS.pdf">Tutorial: ANNIS (Referenzkorpora Altdeutsch, Mittelhochdeutsch, Bonner Frühneuhochdeutschkorpus, ...)</a>; ergänzend: <a href="https://empirical-linguistics.github.io/einfache-korpusrecherchen-annis/index.html">Tutorial zu einfachen Korpusrecherchen in ANNIS mit Schwerpunkt Datenexport</a>
+
 4.	<a href="https://hartmast.github.io/sprachgeschichte/begleitmaterial/04-CosmasII_Tutorial.pdf">Tutorial: COSMAS II (Deutsches Referenzkorpus)</a>
 5.	<a href="https://hartmast.github.io/sprachgeschichte/begleitmaterial/05-FnhdC.pdf">Tutorial: Bonner Frühneuhochdeutschkorpus (altes Interface)</a> (R-Skript im Ordner <a href="https://github.com/hartmast/sprachgeschichte/tree/master/begleitmaterial/FnhdC">FnhdC</a> auf GitHub)
 
